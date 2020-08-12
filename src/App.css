@@ -1,28 +1,52 @@
+:root {
+  --primary: #ffffff;
+  --main-text: #6b6b6b;
+  --secondary: #80bfff;
+  --subtext: #666666;
+  --shadow: #cccccc;
+  --submitHover: #35baa5;
+  --contact: #7399bf;
+  --footer: #56738f;
+}
+
 /* RESET */
 * {
   padding: 0;
   margin: 0;
   text-decoration: none;
+  color: var(--primary);
 }
 
-:root {
-  --background-white: #ffffff;
-  --main-text: #6b6b6b;
-  --subtext: #666666;
+/* FONTS */
+@font-face {
+  font-family: "Gotham Rounded ScreenSmart Light";
+  src: url(./assets/fonts/HCo_GothamRndSSm/OpenType/GothamRndSSm-Light.otf);
+}
+
+@font-face {
+  font-family: "Gotham Rounded ScreenSmart Bold";
+  src: url(./assets/fonts/HCo_GothamRndSSm/OpenType/GothamRndSSm-Bold.otf);
+}
+
+@font-face {
+  font-family: "Gotham Rounded ScreenSmart Medium";
+  src: url(./assets/fonts/HCo_GothamRndSSm/OpenType/GothamRndSSm-Medium.otf);
 }
 
 .App {
-  background-color: var(--background-white);
+  font-family: "Gotham Rounded ScreenSmart Light";
+  color: var(--main-text);
+  background-color: var(--primary);
   display: block;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: var(--main-text);
 }
 
 body img {
   max-width: 40vw;
   border-radius: 50%;
 }
+
 .section {
   height: 100vh;
 }

@@ -10,21 +10,29 @@ header {
 }
 
 header h1 {
+  font-family: "Gotham Rounded ScreenSmart Medium";
   grid-column: 2/12;
   margin: 20px auto;
 }
 
 .sub {
   text-align: center;
-  grid-column: 2/12;
+  grid-column: 1/13;
   padding-bottom: 20px;
 }
 
 header nav {
-  grid-column: 2/12;
+  font-size: smaller;
+  grid-column: 1/13;
   padding-bottom: 20px;
 }
 
 header nav * {
-  margin: auto 10px;
+  border: 1px solid var(--primary);
+  border-radius: 5px;
+  padding: 5px 10px;
+  width: 25vw;
+  margin: 4px;
+  color: var(--subtext);
+  background-color: var(--primary);
 }
