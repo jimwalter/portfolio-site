@@ -1,21 +1,23 @@
-.App {
-  text-align: center;
+* {
+  padding: 0;
+  margin: 0;
 }
 
-.header,
-.body,
-footer {
-  background-color: #fff;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+:root {
+  --background-white: #ffffff;
+  --main-text: #6b6b6b;
+  --subtext: #666666;
+}
+
+.App {
+  background-color: var(--background-white);
+  display: block;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: black;
+  color: var(--main-text);
 }
 
 body img {
-  max-width: 20vw;
+  max-width: 40vw;
   border-radius: 50%;
 }
