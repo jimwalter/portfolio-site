@@ -1,6 +1,8 @@
+/* RESET */
 * {
   padding: 0;
   margin: 0;
+  text-decoration: none;
 }
 
 :root {
@@ -20,4 +22,7 @@
 body img {
   max-width: 40vw;
   border-radius: 50%;
+}
+.section {
+  height: 100vh;
 }

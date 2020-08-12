@@ -8,9 +8,9 @@ function Header() {
       <p className="sub">Software Engineer, Maker, Problem Solver</p>
       <nav>
         <a href="#projects">Projects</a>
-        <a href="#Resume">Resume</a>
-        <a href="#About">About</a>
-        <a href="#Contact">Contact</a>
+        <a href="#resume">Resume</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
       </nav>
     </header>
   );
