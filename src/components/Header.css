@@ -1,38 +1,28 @@
 header {
+  padding-top: 35px;
+  display: block;
+}
+
+.header {
   width: 100%;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   margin: 0px auto 20px;
   text-align: center;
-  position: sticky;
-  color: var(--background-white);
-  background-color: var(--main-text);
+  background: url("../assets/images/mountains.jpg");
+  background-repeat: none;
+  background-size: cover;
+  background-position: center;
 }
 
-header h1 {
-  font-family: "Gotham Rounded ScreenSmart Medium";
+.header h1 {
   grid-column: 2/12;
-  margin: 20px auto;
+  margin: 20px auto 10px;
+  display: block;
 }
 
 .sub {
   text-align: center;
   grid-column: 1/13;
   padding-bottom: 20px;
-}
-
-header nav {
-  font-size: smaller;
-  grid-column: 1/13;
-  padding-bottom: 20px;
-}
-
-header nav * {
-  border: 1px solid var(--primary);
-  border-radius: 5px;
-  padding: 5px 10px;
-  width: 25vw;
-  margin: 4px;
-  color: var(--subtext);
-  background-color: var(--primary);
 }

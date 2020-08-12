@@ -33,20 +33,28 @@
   src: url(./assets/fonts/HCo_GothamRndSSm/OpenType/GothamRndSSm-Medium.otf);
 }
 
-.App {
-  font-family: "Gotham Rounded ScreenSmart Light";
-  color: var(--main-text);
+.html {
   background-color: var(--primary);
   display: block;
   justify-content: center;
   font-size: calc(10px + 2vmin);
 }
 
-body img {
+body {
+  font-family: "Gotham Rounded ScreenSmart Medium";
+  color: var(--main-text);
+}
+
+.body img {
   max-width: 40vw;
   border-radius: 50%;
 }
 
 .section {
   height: 100vh;
+  text-align: center;
+}
+
+.section * {
+  color: var(--main-text);
 }

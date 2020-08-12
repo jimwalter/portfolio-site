@@ -1,0 +1,55 @@
+.navigation {
+  display: block;
+  background-color: var(--subtext);
+  text-align: center;
+  align-items: center;
+  width: 100%;
+  z-index: 1;
+  position: fixed;
+  top: 0;
+}
+
+nav {
+  font-size: small;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 100%;
+  margin: 2px auto;
+  justify-content: center;
+  background-color: var(--subtext);
+}
+
+nav a {
+  padding: 10px 10px;
+  color: var(--primary);
+}
+
+nav a:nth-child(1) {
+  border-right: 1px solid var(--primary);
+}
+
+nav a:nth-child(2) {
+  border-right: 1px solid var(--primary);
+}
+
+nav a:nth-child(3) {
+  border-right: 1px solid var(--primary);
+}
+
+@media only screen and (max-width: 350px) {
+  nav {
+    font-size: x-small;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  nav {
+    font-size: x-small;
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  nav {
+    /* font-size: large; */
+  }
+}
