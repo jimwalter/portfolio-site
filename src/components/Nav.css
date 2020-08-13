@@ -4,6 +4,7 @@
   text-align: center;
   align-items: center;
   width: 100%;
+  max-width: 1000px;
   z-index: 1;
   position: fixed;
   top: 0;

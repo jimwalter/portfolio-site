@@ -58,6 +58,11 @@ body {
   color: var(--main-text);
 }
 
+.App {
+  max-width: 1000px;
+  margin: auto;
+}
+
 .body img {
   max-width: 40vw;
   border-radius: 50%;
