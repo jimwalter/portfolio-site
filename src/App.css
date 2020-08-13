@@ -1,10 +1,11 @@
 :root {
   --primary: #ffffff;
   --main-text: #6b6b6b;
-  --secondary: #80bfff;
-  --subtext: #666666;
+  --secondary: #d39d52;
+  --nav: #666666;
+  --navOp: rgb(102, 102, 102, 0.8);
+  --nav2: #16150d;
   --shadow: #cccccc;
-  --submitHover: #d39d52;
   --contact: #7399bf;
   --footer: #56738f;
 }
@@ -25,7 +26,7 @@
 
 @font-face {
   font-family: "Lato Medium";
-  src: url(./assets/fonts/Lato/Lato-Regular.ttf);
+  src: url(./assets/fonts/Poppins/Poppins-Medium.ttf);
 }
 
 @font-face {

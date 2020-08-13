@@ -7,25 +7,50 @@ header {
   width: 100%;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  margin: 0px auto;
+  padding-bottom: 30px;
+  margin: 20px auto;
   text-align: center;
   background: url("../assets/images/pexels-francesco-ungaro-1711323.jpg");
   background-repeat: none;
   background-size: cover;
   background-position: top;
-  height: 20vh;
 }
 
 .logo {
-  font-family: "Lato Medium Italic";
-  grid-column: 2/12;
-  margin: 20px auto 0;
+  /* font-size: x-large; */
+  font-weight: 600;
+  grid-column: 1/13;
+  padding: 10px 30px;
+  margin: 20px auto;
   display: block;
+  background-color: var(--navOp);
+  border-radius: 10px;
 }
 
 .sub {
+  font-size: small;
+  padding: 10px 10px;
+  margin: 0 auto;
   text-align: center;
   grid-column: 1/13;
-  /* padding-bottom: 20px; */
-  /* color: var(--shadow); */
+  font-family: "Lato Medium Italic";
+  background-color: var(--navOp);
+  border-radius: 10px;
+}
+
+@media only screen and (min-width: 350px) {
+  .logo {
+  }
+  .sub {
+    font-size: medium;
+  }
+}
+
+@media only screen and (min-width: 650px) {
+  .sub {
+    font-size: x-large;
+  }
+}
+
+@media only screen and (min-width: 950px) {
 }

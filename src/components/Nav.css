@@ -1,6 +1,6 @@
 .navigation {
   display: block;
-  background-color: var(--subtext);
+  background: linear-gradient(var(--nav), var(--nav2), var(--nav2));
   text-align: center;
   align-items: center;
   width: 100%;
@@ -16,7 +16,6 @@ nav {
   width: 100%;
   margin: 2px auto;
   justify-content: center;
-  background-color: var(--subtext);
 }
 
 nav a {
@@ -26,7 +25,7 @@ nav a {
 
 nav a:hover {
   cursor: pointer;
-  color: var(--submitHover);
+  color: var(--secondary);
   transition: all 0.25s ease-in;
 }
 
