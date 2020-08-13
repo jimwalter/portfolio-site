@@ -4,7 +4,7 @@
   --secondary: #80bfff;
   --subtext: #666666;
   --shadow: #cccccc;
-  --submitHover: #35baa5;
+  --submitHover: #d39d52;
   --contact: #7399bf;
   --footer: #56738f;
 }
@@ -24,13 +24,23 @@
 }
 
 @font-face {
+  font-family: "Lato Medium";
+  src: url(./assets/fonts/Lato/Lato-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Lato Medium Italic";
+  src: url(./assets/fonts/Lato/Lato-Italic.ttf);
+}
+
+@font-face {
   font-family: "Lato Bold";
   src: url(./assets/fonts/Lato/Lato-Bold.ttf);
 }
 
 @font-face {
-  font-family: "Lato Medium";
-  src: url(./assets/fonts/Lato/Lato-Regular.ttf);
+  font-family: "Lato Black";
+  src: url(./assets/fonts/Lato/Lato-Black.ttf);
 }
 
 html {

@@ -9,14 +9,15 @@ header {
   grid-template-columns: repeat(12, 1fr);
   margin: 0px auto;
   text-align: center;
-  background: url("../assets/images/forrest.jpg");
+  background: url("../assets/images/pexels-francesco-ungaro-1711323.jpg");
   background-repeat: none;
   background-size: cover;
   background-position: top;
   height: 20vh;
 }
 
-.header h1 {
+.logo {
+  font-family: "Lato Medium Italic";
   grid-column: 2/12;
   margin: 20px auto 0;
   display: block;
