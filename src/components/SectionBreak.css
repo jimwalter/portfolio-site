@@ -1,0 +1,9 @@
+.sectionBreak {
+  height: 10px;
+  width: 100%;
+  background: linear-gradient(0.25turn, #172622, #7b8f8e, #172622);
+}
+
+.sectionBreak:nth-of-type(1) {
+  background-color: var(--primary);
+}

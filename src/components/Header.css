@@ -7,22 +7,24 @@ header {
   width: 100%;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  margin: 0px auto 20px;
+  margin: 0px auto;
   text-align: center;
-  background: url("../assets/images/mountains.jpg");
+  background: url("../assets/images/forrest.jpg");
   background-repeat: none;
   background-size: cover;
-  background-position: center;
+  background-position: top;
+  height: 20vh;
 }
 
 .header h1 {
   grid-column: 2/12;
-  margin: 20px auto 10px;
+  margin: 20px auto 0;
   display: block;
 }
 
 .sub {
   text-align: center;
   grid-column: 1/13;
-  padding-bottom: 20px;
+  /* padding-bottom: 20px; */
+  /* color: var(--shadow); */
 }

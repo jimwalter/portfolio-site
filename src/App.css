@@ -19,29 +19,31 @@
 
 /* FONTS */
 @font-face {
-  font-family: "Gotham Rounded ScreenSmart Light";
-  src: url(./assets/fonts/HCo_GothamRndSSm/OpenType/GothamRndSSm-Light.otf);
+  font-family: "Lato Light";
+  src: url(./assets/fonts/Lato/Lato-Light.ttf);
 }
 
 @font-face {
-  font-family: "Gotham Rounded ScreenSmart Bold";
-  src: url(./assets/fonts/HCo_GothamRndSSm/OpenType/GothamRndSSm-Bold.otf);
+  font-family: "Lato Bold";
+  src: url(./assets/fonts/Lato/Lato-Bold.ttf);
 }
 
 @font-face {
-  font-family: "Gotham Rounded ScreenSmart Medium";
-  src: url(./assets/fonts/HCo_GothamRndSSm/OpenType/GothamRndSSm-Medium.otf);
+  font-family: "Lato Medium";
+  src: url(./assets/fonts/Lato/Lato-Regular.ttf);
 }
 
-.html {
+html {
   background-color: var(--primary);
   display: block;
   justify-content: center;
   font-size: calc(10px + 2vmin);
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
 }
 
 body {
-  font-family: "Gotham Rounded ScreenSmart Medium";
+  font-family: "Lato Medium";
   color: var(--main-text);
 }
 
@@ -53,6 +55,7 @@ body {
 .section {
   height: 100vh;
   text-align: center;
+  margin-top: 50px;
 }
 
 .section * {

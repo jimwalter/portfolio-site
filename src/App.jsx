@@ -8,6 +8,7 @@ import Resume from "./sections/Resume.jsx";
 import About from "./sections/About.jsx";
 import Contact from "./sections/Contact.jsx";
 import Footer from "./components/Footer.jsx";
+import SectionBreak from "./components/SectionBreak.jsx";
 
 function App() {
   return (
@@ -15,9 +16,13 @@ function App() {
       <Nav />
       <Header />
       <div className="body">
+        <SectionBreak id={"projects"} />
         <Projects />
+        <SectionBreak id={"resume"} />
         <Resume />
+        <SectionBreak id={"about"} />
         <About />
+        <SectionBreak id={"contact"} />
         <Contact />
       </div>
       <Footer />
