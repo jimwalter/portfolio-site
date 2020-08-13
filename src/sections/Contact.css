@@ -1,3 +1,7 @@
+.contact {
+  background-color: var(--shadow);
+}
+
 .contact-info {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
@@ -5,14 +9,13 @@
 }
 
 .contact-info img {
-  grid-column: 2/3;
-}
-
-.contact-info h4 {
-  grid-column: 3/5;
+  grid-column: 3/4;
+  width: 50px;
+  height: 50px;
 }
 
 .contact-info a,
 .contact-info p {
   grid-column: 5/12;
+  text-align: left;
 }
