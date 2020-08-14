@@ -8,32 +8,49 @@ function Projects() {
       <h2 className="headline">Projects</h2>
       <div className="project left">
         <div className="leader">
-          <h3 className="title">Project One</h3>
-          <p className="description">This is the description of project 1</p>
+          <a href="https://www.giide.fm/" target="_blank" rel="noopener noreferrer">
+            <h3 className="title">Giide.fm website</h3>
+          </a>
+          <p className="description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Error commodi corrupti magnam unde veniam
+            cupiditate eos, ducimus, laborum atque molestias possimus sapiente repudiandae hic recusandae accusantium,
+            rerum praesentium ex non!
+          </p>
         </div>
         <img className="project-img" src={image} alt="img1" />
       </div>
       <div className="project right">
         <div className="leader">
-          <h3 className="title">Project Two</h3>
-          <p className="description">This is the description of project 2</p>
+          <a href="https://github.com/SDC-ghrden03/similar-vehicles" target="_blank" rel="noopener noreferrer">
+            <h3 className="title">Used Car Similar Vehicle Service</h3>
+          </a>
+          <p className="description">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic cum, vero, atque enim ex incidunt recusandae
+            nihil et, at nesciunt nostrum corporis aut dolores dolorem quod minus blanditiis eum quam?
+          </p>
         </div>
         <img className="project-img" src={image} alt="img2" />
       </div>
       <div className="project left ">
         <div className="leader">
-          <h3 className="title">Project Three</h3>
-          <p className="description">This is the description of project 3</p>
+          <a href="https://neighborly-eats.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+            <h3 className="title">Neighborly Eats App</h3>
+          </a>
+          <p className="description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit obcaecati vitae inventore, cumque officiis
+            placeat ad alias assumenda repudiandae ea omnis delectus aspernatur impedit maiores, voluptatibus non
+            necessitatibus mollitia laboriosam?
+          </p>
         </div>
         <img className="project-img" src={image} alt="img3" />
       </div>
-      <div className="project right">
+      {/* <div className="project right">
         <div className="leader">
           <h3 className="title">Project Four</h3>
           <p className="description">This is the description of project 4</p>
         </div>
         <img className="project-img" src={image} alt="img4" />
-      </div>
+      </div> */}
     </div>
   );
 }
