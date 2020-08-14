@@ -69,6 +69,7 @@ body {
 }
 
 .section {
+  min-height: 90vh;
   text-align: center;
   padding: 40px;
 }
@@ -79,4 +80,11 @@ body {
 
 .headline {
   padding: 20px;
+}
+
+.scene {
+  height: 100vh;
+  max-width: 1000px;
+  text-align: center;
+  margin: 0 auto;
 }
