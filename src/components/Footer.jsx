@@ -11,7 +11,7 @@ function Footer() {
     <div className="foot">
       <p>This is the footer</p>
 
-      <img src={jim} alt="" />
+      {/* <img src={jim} alt="" /> */}
       <img src={light} alt="" />
       <img src={img1} alt="" />
       <img src={img2} alt="" />

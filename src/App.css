@@ -45,7 +45,7 @@
 }
 
 html {
-  background-color: var(--primary);
+  background-color: black;
   display: block;
   justify-content: center;
   font-size: calc(10px + 2vmin);
