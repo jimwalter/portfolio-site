@@ -1,4 +1,5 @@
 header {
+  color: #cccccc;
   padding-top: 35px;
   display: block;
 }
@@ -10,20 +11,19 @@ header {
   padding-bottom: 30px;
   padding-top: 50px;
   text-align: center;
-  background: url("../assets/images/reflection.jpg");
+  background: url("../assets/images/exp/img3.jpg");
   background-repeat: none;
   background-size: cover;
   background-position: top;
 }
 
 .logo {
-  /* font-size: x-large; */
   font-weight: 600;
   grid-column: 1/13;
   padding: 10px 30px;
   margin: 20px auto;
   display: block;
-  background-color: var(--navOp);
+  /* background-color: var(--navOp); */
   border-radius: 10px;
 }
 

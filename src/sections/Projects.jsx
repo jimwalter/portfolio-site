@@ -1,6 +1,9 @@
 import React from "react";
 import "./Projects.css";
 import image from "../assets/images/headshot_jw.JPG";
+import img1 from "../assets/images/exp/img1.jpg";
+import img2 from "../assets/images/exp/img2.jpg";
+import img3 from "../assets/images/exp/img3.jpg";
 
 function Projects() {
   return (
@@ -17,7 +20,7 @@ function Projects() {
             rerum praesentium ex non!
           </p>
         </div>
-        <img className="project-img" src={image} alt="img1" />
+        <img className="project-img" src={img1} alt="img1" />
       </div>
       <div className="project right">
         <div className="leader">
@@ -29,7 +32,7 @@ function Projects() {
             nihil et, at nesciunt nostrum corporis aut dolores dolorem quod minus blanditiis eum quam?
           </p>
         </div>
-        <img className="project-img" src={image} alt="img2" />
+        <img className="project-img" src={img2} alt="img2" />
       </div>
       <div className="project left ">
         <div className="leader">
@@ -42,7 +45,7 @@ function Projects() {
             necessitatibus mollitia laboriosam?
           </p>
         </div>
-        <img className="project-img" src={image} alt="img3" />
+        <img className="project-img" src={img3} alt="img3" />
       </div>
       {/* <div className="project right">
         <div className="leader">
