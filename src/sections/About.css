@@ -1,0 +1,32 @@
+.headshot {
+  border-radius: 50%;
+  width: 40%;
+  max-width: 200px;
+}
+
+.about-body {
+  margin: 20px auto;
+  width: 90%;
+}
+
+.about-body p {
+  margin: 20px auto;
+}
+
+.about-body a {
+  margin: 20px auto;
+  text-decoration: underline;
+}
+
+@media only screen and (min-width: 350px) {
+}
+
+@media only screen and (min-width: 650px) {
+  .about-body {
+    text-align: left;
+    text-indent: 50px;
+  }
+}
+
+@media only screen and (min-width: 950px) {
+}
