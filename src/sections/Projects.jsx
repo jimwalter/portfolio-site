@@ -1,6 +1,6 @@
 import React from "react";
 import "./Projects.css";
-import image from "../assets/images/headshot_jw.JPG";
+
 import img1 from "../assets/images/exp/img1.jpg";
 import img2 from "../assets/images/exp/img2.jpg";
 import img3 from "../assets/images/exp/img3.jpg";
@@ -47,13 +47,6 @@ function Projects() {
         </div>
         <img className="project-img" src={img3} alt="img3" />
       </div>
-      {/* <div className="project right">
-        <div className="leader">
-          <h3 className="title">Project Four</h3>
-          <p className="description">This is the description of project 4</p>
-        </div>
-        <img className="project-img" src={image} alt="img4" />
-      </div> */}
     </div>
   );
 }

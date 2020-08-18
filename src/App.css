@@ -7,6 +7,7 @@
   --navOp: rgba(102, 102, 102, 0.5);
   --shadow: #cccccca3;
   --contact: #7399bf;
+  --opaque: rgba(255, 255, 255, 0);
 }
 
 /* RESET */
@@ -84,7 +85,18 @@ body {
 
 .headline {
   font-size: 1.8em;
+  font-family: "Poppins Medium Italic";
+  font-weight: 500;
+  text-decoration: underline;
   padding: 20px;
+}
+
+.title {
+  color: var(--secondary);
+  font-size: 1.3em;
+  font-family: "Poppins Bold";
+  letter-spacing: 0.2em;
+  margin: 20px 0;
 }
 
 .scene {

@@ -23,26 +23,25 @@ header {
   width: 80%;
   padding: 10px auto;
   margin: auto;
+  background-color: var(--navOp);
+  border-radius: 10px;
 }
 
 .logo {
   font-weight: 600;
   max-width: 80%;
   padding: 10px 10px;
-  margin: 20px auto 10px;
+  margin: 20px auto 0px;
   display: block;
-  background-color: var(--navOp);
-  border-radius: 10px;
 }
 
 .sub {
   font-size: small;
   padding: 10px 10px;
-  margin: 10px auto 20px;
+  margin: 0px auto 20px;
   text-align: center;
   width: 80%;
   font-family: "Poppins Medium Italic";
-  background-color: var(--navOp);
   border-radius: 10px;
 }
 

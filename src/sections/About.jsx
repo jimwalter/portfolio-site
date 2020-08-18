@@ -7,7 +7,7 @@ function About() {
     <div className="section">
       <h2 className="headline">About</h2>
       <div className="about-title">
-        <h3>Hi! I'm Jim</h3>
+        <h3 className="title">Hi! I'm Jim</h3>
         {/* <img className="headshot" src={headshot} alt="Jim Walter headshot" /> */}
       </div>
       <div className="about-body">

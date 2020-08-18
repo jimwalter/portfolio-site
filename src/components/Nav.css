@@ -31,7 +31,7 @@ nav {
 nav a {
   grid-column: span 3;
   padding: 10px 5px;
-  border: 1px solid var(--primary);
+  border: 1px solid var(--opaque);
   border-radius: 10px;
   color: var(--main-text);
 }

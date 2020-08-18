@@ -17,13 +17,13 @@
   grid-column: 2/12;
 }
 
-.title {
+/* .title {
   color: var(--secondary);
   font-size: 1.3em;
   font-family: "Poppins Black Italic";
   letter-spacing: 0.2em;
   margin: 20px 0;
-}
+} */
 
 .description {
   padding: 0 0 20px 0;
