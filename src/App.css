@@ -1,8 +1,8 @@
 :root {
   --primary: #ffffff;
+  --secondary: #56738f;
   --main-text: #111111;
   --second-text: #494747;
-  --secondary: #56738f;
   --nav: #666666;
   --navOp: rgba(102, 102, 102, 0.5);
   --shadow: #cccccca3;
@@ -69,14 +69,12 @@ body {
   margin: auto;
 }
 
-.body img {
-  max-width: 40vw;
-  /* border-radius: 50%; */
-}
-
 .section {
   text-align: center;
   padding: 40px 0;
+}
+.section :first-child {
+  padding: 0px 0;
 }
 
 .section * {
@@ -96,7 +94,7 @@ body {
   font-size: 1.3em;
   font-family: "Poppins Bold";
   letter-spacing: 0.2em;
-  margin: 20px 0;
+  margin: 20px auto;
 }
 
 .scene {

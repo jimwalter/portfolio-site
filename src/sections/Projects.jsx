@@ -1,13 +1,15 @@
 import React from "react";
 import "./Projects.css";
 
-import img1 from "../assets/images/exp/img1.jpg";
-import img2 from "../assets/images/exp/img2.jpg";
-import img3 from "../assets/images/exp/img3.jpg";
+import giide_1 from "../assets/images/giide_1.png";
+import sdc_gif from "../assets/images/sdc_1.gif";
+import nea_1 from "../assets/images/NEA_1.png";
+import nea_2 from "../assets/images/NEA_2.png";
+import nea_3 from "../assets/images/NEA_3.png";
 
 function Projects() {
   return (
-    <div className="section">
+    <div className="projects section">
       <h2 className="headline">Projects</h2>
       <div className="project left">
         <div className="leader">
@@ -20,7 +22,9 @@ function Projects() {
             rerum praesentium ex non!
           </p>
         </div>
-        <img className="project-img" src={img1} alt="img1" />
+        <a className="project-img" href="https://www.giide.fm/" target="_blank" rel="noopener noreferrer">
+          <img src={giide_1} alt="img1" />
+        </a>
       </div>
       <div className="project right">
         <div className="leader">
@@ -32,7 +36,14 @@ function Projects() {
             nihil et, at nesciunt nostrum corporis aut dolores dolorem quod minus blanditiis eum quam?
           </p>
         </div>
-        <img className="project-img" src={img2} alt="img2" />
+        <a
+          className="project-img"
+          href="https://github.com/SDC-ghrden03/similar-vehicles"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src={sdc_gif} alt="img2" />
+        </a>
       </div>
       <div className="project left ">
         <div className="leader">
@@ -45,7 +56,14 @@ function Projects() {
             necessitatibus mollitia laboriosam?
           </p>
         </div>
-        <img className="project-img" src={img3} alt="img3" />
+        <a
+          className="project-img"
+          href="https://neighborly-eats.herokuapp.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src={nea_1} alt="img3" />
+        </a>
       </div>
     </div>
   );
