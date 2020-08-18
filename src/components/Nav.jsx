@@ -4,13 +4,13 @@ import "./Nav.css";
 function Nav() {
   return (
     <div className="navigation">
-      <p className="nav-logo">JW </p>
+      <div>
+        <p className="nav-logo">JW</p>
+      </div>
       <nav>
-        <a href="#home" onClick={() => window.scrollTo(0, 0)}>
-          Home
-        </a>
+        <a href="#home">Home</a>
         <a href="#projects">Projects</a>
-        <a href="#resume">Resume</a>
+        <a href="#resume">Experience</a>
         <a href="#about">About</a>
         <a href="#contact">Contact</a>
       </nav>

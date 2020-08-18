@@ -1,12 +1,12 @@
 :root {
   --primary: #ffffff;
   --main-text: #111111;
-  --secondary: #6bc7c9;
+  --second-text: #494747;
+  --secondary: #56738f;
   --nav: #666666;
   --navOp: rgba(102, 102, 102, 0.5);
   --shadow: #cccccca3;
   --contact: #7399bf;
-  --footer: #56738f;
 }
 
 /* RESET */
@@ -19,28 +19,33 @@
 
 /* FONTS */
 @font-face {
-  font-family: "Lato Light";
-  src: url(./assets/fonts/Lato/Lato-Light.ttf);
+  font-family: "Poppins Light";
+  src: url(./assets/fonts/Poppins/Poppins-Light.ttf);
 }
 
 @font-face {
-  font-family: "Lato Medium";
+  font-family: "Poppins Medium";
   src: url(./assets/fonts/Poppins/Poppins-Medium.ttf);
 }
 
 @font-face {
-  font-family: "Lato Medium Italic";
-  src: url(./assets/fonts/Lato/Lato-Italic.ttf);
+  font-family: "Poppins Medium Italic";
+  src: url(./assets/fonts/Poppins/Poppins-Italic.ttf);
 }
 
 @font-face {
-  font-family: "Lato Bold";
-  src: url(./assets/fonts/Lato/Lato-Bold.ttf);
+  font-family: "Poppins Bold";
+  src: url(./assets/fonts/Poppins/Poppins-Bold.ttf);
 }
 
 @font-face {
-  font-family: "Lato Black";
-  src: url(./assets/fonts/Lato/Lato-Black.ttf);
+  font-family: "Poppins Black";
+  src: url(./assets/fonts/Poppins/Poppins-Black.ttf);
+}
+
+@font-face {
+  font-family: "Poppins Black Italic";
+  src: url(./assets/fonts/Poppins/Poppins-BoldItalic.ttf);
 }
 
 html {
@@ -54,7 +59,7 @@ html {
 }
 
 body {
-  font-family: "Lato Medium";
+  font-family: "Poppins Medium";
   color: var(--main-text);
 }
 
@@ -70,7 +75,7 @@ body {
 
 .section {
   text-align: center;
-  /* padding: 40px; */
+  padding: 40px 0;
 }
 
 .section * {
@@ -78,6 +83,7 @@ body {
 }
 
 .headline {
+  font-size: 1.8em;
   padding: 20px;
 }
 

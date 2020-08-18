@@ -7,12 +7,12 @@ import img3 from "../assets/images/exp/img3.jpg";
 
 function Projects() {
   return (
-    <div id="projects" className="section">
+    <div className="section">
       <h2 className="headline">Projects</h2>
       <div className="project left">
         <div className="leader">
           <a href="https://www.giide.fm/" target="_blank" rel="noopener noreferrer">
-            <h3 className="title">Giide.fm website</h3>
+            <h3 className="title">Giide.fm Website</h3>
           </a>
           <p className="description">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Error commodi corrupti magnam unde veniam

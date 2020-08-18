@@ -1,9 +1,4 @@
 .sectionBreak {
   height: 10px;
   width: 100%;
-
-  /* background: var(--primary); */
-}
-
-.sectionBreak:nth-of-type(1) {
 }

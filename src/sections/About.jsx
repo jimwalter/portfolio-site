@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.css";
-import headshot from "../assets/images/headshot_jw.JPG";
+// import headshot from "../assets/images/headshot_jw.JPG";
 
 function About() {
   return (
@@ -8,7 +8,7 @@ function About() {
       <h2 className="headline">About</h2>
       <div className="about-title">
         <h3>Hi! I'm Jim</h3>
-        <img className="headshot" src={headshot} alt="Jim Walter headshot" />
+        {/* <img className="headshot" src={headshot} alt="Jim Walter headshot" /> */}
       </div>
       <div className="about-body">
         <p>
