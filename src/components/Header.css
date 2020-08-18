@@ -1,18 +1,17 @@
 header {
   color: #cccccc;
-  padding-top: 35px;
+  /* padding-top: 35px; */
   display: block;
 }
 
 .header {
   width: 100%;
-
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   padding-bottom: 30px;
-  padding-top: 50px;
+
   text-align: center;
-  background: url("../assets/images/exp/img3.jpg");
+  /* background: url("../assets/images/exp/img3.jpg"); */
   background-repeat: none;
   background-size: cover;
   background-position: top;
@@ -24,7 +23,7 @@ header {
   padding: 10px 30px;
   margin: 20px auto;
   display: block;
-  /* background-color: var(--navOp); */
+  background-color: var(--navOp);
   border-radius: 10px;
 }
 
@@ -48,8 +47,13 @@ header {
 }
 
 @media only screen and (min-width: 650px) {
+  .logo {
+    font-size: 1.75em;
+    grid-column: 2/7;
+  }
   .sub {
-    font-size: x-large;
+    grid-column: 2/7;
+    font-size: small;
   }
 }
 

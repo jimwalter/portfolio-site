@@ -10,20 +10,8 @@ function Footer() {
   return (
     <div className="foot">
       <p>This is the footer</p>
-
-      {/* <img src={jim} alt="" /> */}
-      <img src={light} alt="" />
-      <img src={img1} alt="" />
-      <img src={img2} alt="" />
-      <img src={img3} alt="" />
     </div>
   );
 }
 
 export default Footer;
-
-// footer .test2 {
-//   background-image: url("../assets/images/exp/pexels-led-supermarket-577514.jpg");
-//   width: 20%;
-// footer .test3 {
-//   background-image: url("../assets/images/exp/mitchell-V6KsRZviGUU-unsplash\ \(1\).jpg");

@@ -1,10 +1,9 @@
 :root {
   --primary: #ffffff;
-  --main-text: #6b6b6b;
-  --secondary: #d39d52;
+  --main-text: #111111;
+  --secondary: #6bc7c9;
   --nav: #666666;
-  --navOp: rgb(102, 102, 102, 0.8);
-  --nav2: #16150d;
+  --navOp: rgba(102, 102, 102, 0.5);
   --shadow: #cccccca3;
   --contact: #7399bf;
   --footer: #56738f;
@@ -45,7 +44,8 @@
 }
 
 html {
-  background-color: black;
+  color: var(--main-text);
+  background-color: var(--primary);
   display: block;
   justify-content: center;
   font-size: calc(10px + 2vmin);
@@ -70,7 +70,7 @@ body {
 
 .section {
   text-align: center;
-  padding: 40px;
+  /* padding: 40px; */
 }
 
 .section * {

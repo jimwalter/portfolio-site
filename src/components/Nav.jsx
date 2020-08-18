@@ -4,6 +4,7 @@ import "./Nav.css";
 function Nav() {
   return (
     <div className="navigation">
+      <p className="nav-logo">JW </p>
       <nav>
         <a href="#home" onClick={() => window.scrollTo(0, 0)}>
           Home
