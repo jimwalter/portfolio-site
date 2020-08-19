@@ -4,13 +4,14 @@
   text-align: center;
   align-items: center;
   width: 100%;
-  max-width: 1000px;
-  z-index: 1;
+  /* max-width: 1000px; */
+  z-index: 2;
   position: -webkit-sticky;
   position: sticky;
   top: 0;
   background-color: var(--primary);
   box-shadow: 0 2px 0 var(--navOp);
+  opacity: 0.85;
 }
 
 .nav-logo {

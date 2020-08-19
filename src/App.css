@@ -12,6 +12,7 @@
 
 /* RESET */
 * {
+  box-sizing: border-box;
   padding: 0;
   margin: 0;
   text-decoration: none;
@@ -62,6 +63,7 @@ html {
 body {
   font-family: "Poppins Medium";
   color: var(--main-text);
+  overflow-x: hidden;
 }
 
 .App {
