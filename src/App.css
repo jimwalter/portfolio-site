@@ -6,7 +6,7 @@
   --nav: #666666;
   --navOp: rgba(102, 102, 102, 0.5);
   --shadow: #cccccca3;
-  --contact: #7399bf;
+  --contact: #a7d5cc;
   --opaque: rgba(255, 255, 255, 0);
 }
 
@@ -69,6 +69,10 @@ body {
   margin: auto;
 }
 
+#headerBG {
+  position: fixed;
+  z-index: -1;
+}
 .section {
   text-align: center;
   padding: 40px 0;

@@ -1,11 +1,11 @@
 import React from "react";
 import "./Projects.css";
 
-import giide_1 from "../assets/images/giide_1.png";
-import sdc_gif from "../assets/images/sdc_1.gif";
-import nea_1 from "../assets/images/NEA_1.png";
-import nea_2 from "../assets/images/NEA_2.png";
-import nea_3 from "../assets/images/NEA_3.png";
+import giide_1 from "../assets/screenshots/giide_1.png";
+import sdc_gif from "../assets/screenshots/sdc_1.gif";
+import nea_1 from "../assets/screenshots/NEA_1.png";
+// import nea_2 from "../assets/images/NEA_2.png";
+// import nea_3 from "../assets/images/NEA_3.png";
 
 function Projects() {
   return (

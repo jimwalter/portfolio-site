@@ -1,8 +1,8 @@
 import React from "react";
 import "./Contact.css";
-import emailLogo from "../assets/images/gmail_icon.png";
-import LinkedInLogo from "../assets/images/linked_icon.png";
-import githubLogo from "../assets/images/github_icon.png";
+import emailLogo from "../assets/icons/gmail_icon.png";
+import LinkedInLogo from "../assets/icons/linked_icon.png";
+import githubLogo from "../assets/icons/github_icon.png";
 
 function Contact() {
   return (
