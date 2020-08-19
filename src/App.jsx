@@ -16,12 +16,12 @@ function App() {
       <Nav />
       <Header />
       <div className="body">
+        <SectionBreak id={"about"} />
+        <About />
         <SectionBreak id={"projects"} />
         <Projects />
         <SectionBreak id={"experience"} />
         <Experience />
-        <SectionBreak id={"about"} />
-        <About />
         <SectionBreak id={"contact"} />
         <Contact />
       </div>
