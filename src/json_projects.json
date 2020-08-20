@@ -3,17 +3,34 @@
     {
       "title": "Giide.fm Website",
       "p1": "Created Homepage website from scratch using React.js & AWS.",
-      "address": "https://www.giide.fm/"
+      "address": "https://www.giide.fm/",
+      "points": [
+        "Page Routing using React Router",
+        "UI/UX animations using GSAP library",
+        "Deployed on AWS S3",
+        "Responsive Design",
+        "Cross Browser Compatibility"
+      ]
     },
     {
       "title": "Used Car Similar Vehicle Service",
       "p1": "Database architecture & performance analysis. Microservice for returning vehicle recommendations.",
-      "address": "https://github.com/SDC-ghrden03/similar-vehicles"
+      "address": "https://github.com/SDC-ghrden03/similar-vehicles",
+      "points": [
+        "Populated MongoDB & PostgreSQL databases with 10M vehicle records",
+        "Created relavent APIs using Node/Express for inherited front end",
+        "Tuned DB performance with indexing & Redis caching",
+        "400% improvement for Postgres, 150% improvement for MongoDB",
+        "Stress tested using Artillery.io",
+        "Achieved 1,000 RPS on locally",
+        "Deployed with Docker & AWS"
+      ]
     },
     {
       "title": "Neighborly Eats App",
       "p1": "Location-based, restaurant recommendation application.",
-      "address": "https://neighborly-eats.herokuapp.com/"
+      "address": "https://neighborly-eats.herokuapp.com/",
+      "points": ["Data integration with Yelp Fusion API"]
     }
   ]
 }
