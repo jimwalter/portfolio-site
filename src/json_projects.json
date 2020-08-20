@@ -26,35 +26,35 @@
     },
     {
       "title": "Used Car Similar Vehicle Service",
-      "p1": "Database architecture & performance analysis. Microservice for returning vehicle recommendations.",
+      "p1": "Database architecture & performance analysis. Microservice for vehicle recommendations.",
       "address": "https://github.com/SDC-ghrden03/similar-vehicles",
       "points": [
         {
-          "copy": "Populated MongoDB & PostgreSQL databases with 10M vehicle records",
+          "copy": "Populated MongoDB & PostgreSQL databases with 10,000,000 vehicle records",
           "key": 5
         },
         {
-          "copy": "Created relavent APIs using Node/Express for inherited front end",
+          "copy": "Created APIs using Node.js & inherited front end",
           "key": 6
         },
         {
-          "copy": "Tuned DB performance with indexing & Redis caching",
+          "copy": "Tuned queries with indexing & Redis caching",
           "key": 7
         },
         {
-          "copy": "400% improvement for Postgres, 150% improvement for MongoDB",
+          "copy": "Postgres +400% / MongoDB +150% improvement",
           "key": 8
         },
         {
-          "copy": "Stress tested using Artillery.io",
+          "copy": "Deployed with Docker & AWS",
           "key": 9
         },
         {
-          "copy": "Achieved 1,000 RPS on locally",
+          "copy": "Stress tested using Artillery.io",
           "key": 10
         },
         {
-          "copy": "Deployed with Docker & AWS",
+          "copy": "Achieved 1,000 RPS locally",
           "key": 11
         }
       ]
