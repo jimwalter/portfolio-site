@@ -5,11 +5,23 @@
       "p1": "Created Homepage website from scratch using React.js & AWS.",
       "address": "https://www.giide.fm/",
       "points": [
-        "Page Routing using React Router",
-        "UI/UX animations using GSAP library",
-        "Deployed on AWS S3",
-        "Responsive Design",
-        "Cross Browser Compatibility"
+        { "copy": "Page Routing using React Router", "key": 0 },
+        {
+          "copy": "UI/UX animations using GSAP library",
+          "key": 1
+        },
+        {
+          "copy": "Deployed on AWS S3",
+          "key": 2
+        },
+        {
+          "copy": "Responsive Design",
+          "key": 3
+        },
+        {
+          "copy": "Cross Browser Compatibility",
+          "key": 4
+        }
       ]
     },
     {
@@ -17,20 +29,44 @@
       "p1": "Database architecture & performance analysis. Microservice for returning vehicle recommendations.",
       "address": "https://github.com/SDC-ghrden03/similar-vehicles",
       "points": [
-        "Populated MongoDB & PostgreSQL databases with 10M vehicle records",
-        "Created relavent APIs using Node/Express for inherited front end",
-        "Tuned DB performance with indexing & Redis caching",
-        "400% improvement for Postgres, 150% improvement for MongoDB",
-        "Stress tested using Artillery.io",
-        "Achieved 1,000 RPS on locally",
-        "Deployed with Docker & AWS"
+        {
+          "copy": "Populated MongoDB & PostgreSQL databases with 10M vehicle records",
+          "key": 5
+        },
+        {
+          "copy": "Created relavent APIs using Node/Express for inherited front end",
+          "key": 6
+        },
+        {
+          "copy": "Tuned DB performance with indexing & Redis caching",
+          "key": 7
+        },
+        {
+          "copy": "400% improvement for Postgres, 150% improvement for MongoDB",
+          "key": 8
+        },
+        {
+          "copy": "Stress tested using Artillery.io",
+          "key": 9
+        },
+        {
+          "copy": "Achieved 1,000 RPS on locally",
+          "key": 10
+        },
+        {
+          "copy": "Deployed with Docker & AWS",
+          "key": 11
+        }
       ]
     },
     {
       "title": "Neighborly Eats App",
       "p1": "Location-based, restaurant recommendation application.",
       "address": "https://neighborly-eats.herokuapp.com/",
-      "points": ["Data integration with Yelp Fusion API"]
+      "points": [
+        { "copy": "Data integration with Yelp Fusion API", "key": 12 },
+        { "copy": "lorem12", "key": 13 }
+      ]
     }
   ]
 }

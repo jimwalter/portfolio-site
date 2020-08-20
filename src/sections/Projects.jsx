@@ -21,7 +21,7 @@ function Projects() {
           <div className="features">
             <h5>Key Features</h5>
             {proj[0].points.map((point) => (
-              <p>&#8212; {point} </p>
+              <p key={point.key}>&#8212; {point.copy} </p>
             ))}
           </div>
         </div>
@@ -38,7 +38,7 @@ function Projects() {
           <div className="features">
             <h5 className="features">Key Features</h5>
             {proj[1].points.map((point) => (
-              <p>&#8212; {point} </p>
+              <p key={point.key}>&#8212; {point.copy} </p>
             ))}
           </div>
         </div>
@@ -55,7 +55,7 @@ function Projects() {
           <div className="features">
             <h5 className="features">Key Features</h5>
             {proj[2].points.map((point) => (
-              <p>&#8212; {point} </p>
+              <p key={point.key}>&#8212; {point.copy} </p>
             ))}
           </div>
         </div>
