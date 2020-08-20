@@ -2,12 +2,12 @@
   "data": [
     {
       "title": "Giide.fm Website",
-      "p1": "Created Homepage website from scratch using React.js and AWS.",
+      "p1": "Created Homepage website from scratch using React.js & AWS.",
       "address": "https://www.giide.fm/"
     },
     {
       "title": "Used Car Similar Vehicle Service",
-      "p1": "Database architecture and performance analysis. Microservice for returning vehicle recommendations.",
+      "p1": "Database architecture & performance analysis. Microservice for returning vehicle recommendations.",
       "address": "https://github.com/SDC-ghrden03/similar-vehicles"
     },
     {

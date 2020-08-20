@@ -6,29 +6,10 @@
   padding: 0 0 60px;
 }
 
-.right .project ul {
-  font-size: 0.8em;
-  text-align: start;
-}
-
-.project ul {
-  font-size: 0.8em;
-  text-align: start;
-  width: 90%;
-  margin: 20px auto;
-  margin-bottom: 40px;
-  list-style-position: inside;
-}
-
-.project li {
+.features p {
+  font-size: 0.7em;
   font-family: "Poppins Light";
-  margin: 5px 1rem;
-}
-
-.project li ul {
-  font-size: 0.9em;
-  margin: 5px 0px;
-  margin-left: 1rem;
+  margin: 10px 0;
 }
 
 .left .leader,
@@ -54,16 +35,13 @@
 
 @media only screen and (min-width: 500px) {
   .project ul {
-    width: 100%;
-    /* margin: auto; */
+    width: 90%;
+    /* margin: 5px 0;
+    margin-left: 10%; */
   }
 }
 
-@media only screen and (min-width: 650px) {
-  .project-img img {
-    max-width: 40vw;
-  }
-
+@media only screen and (min-width: 900px) {
   .leader {
     padding: 10px;
   }
@@ -75,43 +53,27 @@
   .right {
     text-align: right;
   }
-
-  .left .leader {
-    grid-column: 2/7;
-    grid-row: 1;
-  }
-
-  .left .project-img {
-    grid-column: 7/12;
-    grid-row: 1;
-  }
-
-  .right .leader {
-    grid-column: 7/12;
-    grid-row: 1;
-  }
-
-  .right .project-img {
-    grid-column: 2/7;
-    grid-row: 1;
-  }
 }
 
 @media only screen and (min-width: 950px) {
   .left .leader {
     grid-column: 2/7;
+    grid-row: 1;
   }
 
   .left .project-img {
     grid-column: 7/12;
+    grid-row: 1;
   }
 
   .right .leader {
     grid-column: 7/12;
+    grid-row: 1;
   }
 
   .right .project-img {
     grid-column: 2/7;
+    grid-row: 1;
   }
 }
 
