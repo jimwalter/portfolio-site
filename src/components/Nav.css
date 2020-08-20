@@ -4,7 +4,6 @@
   text-align: center;
   align-items: center;
   width: 100%;
-  /* max-width: 1000px; */
   z-index: 2;
   position: -webkit-sticky;
   position: sticky;
@@ -23,7 +22,7 @@ nav {
   grid-column: 1/4;
   font-size: 0.6em;
   display: grid;
-  grid-template-columns: repeat(15, 1fr);
+  grid-template-columns: repeat(12, 1fr);
   gap: 5px;
   width: 100%;
   justify-content: center;

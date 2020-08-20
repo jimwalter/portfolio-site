@@ -21,10 +21,10 @@ function Projects() {
           <div className="features">
             <h5>Key Features</h5>
             <p>&#8212; Page Routing using React Router</p>
-            <p>&#8212; UI/UX animations using GSAP pbrary</p>
+            <p>&#8212; UI/UX animations using GSAP library</p>
             <p>&#8212; Deployed on AWS S3</p>
             <p>&#8212; Responsive Design</p>
-            <p>&#8212; Cross Browser Compatibipty</p>
+            <p>&#8212; Cross Browser Compatibility</p>
           </div>
         </div>
         <a className="project-img" href={proj[0].address} target="_blank" rel="noopener noreferrer">
@@ -42,8 +42,7 @@ function Projects() {
             <p>&#8212; Populated MongoDB &amp; PostgreSQL databases with 10M vehicle records</p>
             <p>&#8212; Created relavent APIs using Node/Express for inherited front end</p>
             <p>&#8212; Tuned DB performance with indexing &amp; Redis caching</p>
-            <p>&#8212; 400% improvement for Postgres</p>
-            <p>&#8212; 150% improvement for MongoDB</p>
+            <p className="psub">(400% improvement for Postgres, 150% improvement for MongoDB)</p>
             <p>&#8212; Stress tested using Artillery.io</p>
             <p>&#8212; Achieved 1,000 RPS on locally</p>
             <p>&#8212; Deployed with Docker &amp; AWS</p>

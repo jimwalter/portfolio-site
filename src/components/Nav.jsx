@@ -5,13 +5,14 @@ function Nav() {
   return (
     <div className="navigation">
       <div>
-        <p className="nav-logo">JW</p>
+        <a href="#home">
+          <p className="nav-logo">JW</p>
+        </a>
       </div>
       <nav>
-        <a href="#home">Home</a>
+        <a href="#about">About</a>
         <a href="#projects">Projects</a>
         <a href="#experience">Experience</a>
-        <a href="#about">About</a>
         <a href="#contact">Contact</a>
       </nav>
     </div>
