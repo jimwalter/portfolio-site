@@ -6,6 +6,31 @@
   padding: 0 0 60px;
 }
 
+.right .project ul {
+  font-size: 0.8em;
+  text-align: start;
+}
+
+.project ul {
+  font-size: 0.8em;
+  text-align: start;
+  width: 90%;
+  margin: 20px auto;
+  margin-bottom: 40px;
+  list-style-position: inside;
+}
+
+.project li {
+  font-family: "Poppins Light";
+  margin: 5px 1rem;
+}
+
+.project li ul {
+  font-size: 0.9em;
+  margin: 5px 0px;
+  margin-left: 1rem;
+}
+
 .left .leader,
 .left .project-img,
 .right .leader,
@@ -14,6 +39,9 @@
 }
 
 .description {
+  font-family: "Poppins Light";
+  font-weight: 600;
+  font-size: 1em;
   padding: 0 0 20px 0;
 }
 
@@ -24,7 +52,11 @@
   margin: auto;
 }
 
-@media only screen and (min-width: 350px) {
+@media only screen and (min-width: 500px) {
+  .project ul {
+    width: 100%;
+    /* margin: auto; */
+  }
 }
 
 @media only screen and (min-width: 650px) {
