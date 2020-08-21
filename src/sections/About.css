@@ -5,11 +5,15 @@
 }
 
 .about-body {
+  font-family: "Poppins Light";
+  font-size: 0.8em;
+  line-height: 1.5em;
   margin: 20px auto;
   width: 90%;
 }
 
 .about-body p {
+  letter-spacing: 0.05em;
   margin: 20px auto;
 }
 

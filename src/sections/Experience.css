@@ -1,0 +1,33 @@
+.experience-body {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+.experience-leader {
+  font-family: "Poppins Light";
+  font-size: 0.8em;
+  line-height: 1.5em;
+  letter-spacing: 0.05em;
+  margin: 40px auto;
+  grid-column: 2/12;
+}
+
+.download {
+  margin: 0px auto;
+  grid-column: 2/12;
+}
+
+.subexp {
+  color: var(--secondary);
+  width: 50%;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.download img {
+  height: 60px;
+  width: 60px;
+}
+
+@media only screen and (min-width: 750) {
+}

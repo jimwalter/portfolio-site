@@ -25,8 +25,8 @@
       ]
     },
     {
-      "title": "Used Car Similar Vehicle Service",
-      "p1": "Database architecture & performance analysis. Microservice for vehicle recommendations.",
+      "title": "Similar Vehicle Service",
+      "p1": "Database architecture & performance optimization. Microservice for vehicle recommendations.",
       "address": "https://github.com/SDC-ghrden03/similar-vehicles",
       "points": [
         {
