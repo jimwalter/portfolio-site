@@ -22,12 +22,12 @@ function Experience() {
         </div>
         <div className="experience-img">
           <img src={unl} alt="University of Nebraska Engineering Logo" />
-          <img className="arrow" src={arrow} alt="University of Nebraska Engineering Logo" />
+          <img className="arrow" src={arrow} alt="downward pointing arrow" />
           <img src={carbon} alt="woven carbon fiber pattern" />
-          <img className="arrow" src={arrow} alt="University of Nebraska Engineering Logo" />
-          <img src={plc} alt="" />
-          <img className="arrow" src={arrow} alt="University of Nebraska Engineering Logo" />
-          <img src={galv} alt="" />
+          <img className="arrow" src={arrow} alt="downward pointing arrow" />
+          <img src={plc} alt="small PLC module" />
+          <img className="arrow" src={arrow} alt="downward pointing arrow" />
+          <img src={galv} alt="Galvanize orange logo" />
         </div>
         <a href={resume} className="download" download="jim_walter_resume">
           <p className="subexp">Click to download my resume</p>
