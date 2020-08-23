@@ -65,9 +65,9 @@
       "address": "https://neighborly-eats.herokuapp.com/",
       "points": [
         { "copy": "Created using React.js and Node.js/Express", "key": 12 },
-        { "copy": "Data integration with Yelp Fusion API", "key": 12 },
-        { "copy": "Built with strict three day timeline", "key": 12 },
-        { "copy": "Deployed with Heroku CLI", "key": 13 }
+        { "copy": "Data integration with Yelp Fusion API", "key": 13 },
+        { "copy": "Built with strict three day timeline", "key": 14 },
+        { "copy": "Deployed with Heroku CLI", "key": 15 }
       ]
     }
   ]

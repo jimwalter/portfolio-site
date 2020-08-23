@@ -1,15 +1,37 @@
 .experience-body {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
+  gap: 10px;
 }
 
 .experience-leader {
+  grid-column: 4/12;
   font-family: "Poppins Light";
   font-size: 0.8em;
   line-height: 1.5em;
   letter-spacing: 0.05em;
-  margin: 40px auto;
-  grid-column: 2/12;
+  margin: 40px 10px;
+}
+
+.experience-img {
+  grid-column: 2/4;
+  grid-row: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.experience-img img {
+  background-color: var(--primary);
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+.experience-img .arrow {
+  transform: rotateZ(-90deg);
+  height: 40px;
+  width: 40px;
 }
 
 .experience-leader p {

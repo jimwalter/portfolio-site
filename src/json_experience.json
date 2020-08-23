@@ -1,16 +1,20 @@
 {
   "body": [
     {
+      "key": 16,
+      "copy": "Graduated from the University of Nebraska with a degree in Mechanical Engineering in 2014."
+    },
+    {
       "key": 17,
-      "copy": ""
+      "copy": "Honed my engineering mindset as a Manufacturing Engineer for six years in carbon fiber winding and recreational vehicle industries."
     },
     {
       "key": 18,
-      "copy": ""
+      "copy": "Wrote my own programs to automate manufacturing processes utilizing programmable logic controller (PLCs)."
     },
     {
       "key": 19,
-      "copy": ""
+      "copy": "Attended Glavanize/Hack Reactor Immersive Software Engineering Program from February 2020 - May 2020. This is a full time, 12 hours per day, six days per week, 13 week program."
     }
   ]
 }
