@@ -2,6 +2,10 @@
   background-color: var(--shadow);
   margin-bottom: 0;
 }
+
+.contact .headline {
+  padding-top: 40px;
+}
 .contacts {
   margin: 0px auto;
   margin-top: 0;

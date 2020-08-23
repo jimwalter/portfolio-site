@@ -13,6 +13,16 @@ footer {
 .foot-info {
   font-family: "Poppins Light";
   grid-column: 2/12;
-  margin: 10px auto;
+  margin: auto;
   text-align: center;
+}
+
+.foot-info :nth-child(2) {
+  font-size: 0.7em;
+}
+
+@media only screen and (min-width: 650px) {
+  footer {
+    height: 20vh;
+  }
 }

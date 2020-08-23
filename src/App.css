@@ -1,12 +1,12 @@
 :root {
   --primary: #ffffff;
   --secondary: #56738f;
+  --third: #4a5c43;
   --main-text: #111111;
   --second-text: #494747;
   --nav: #666666;
   --navOp: rgba(102, 102, 102, 0.5);
   --shadow: #cccccca3;
-  --contact: #a7d5cc;
   --opaque: rgba(255, 255, 255, 0);
 }
 
