@@ -2,7 +2,7 @@
   "data": [
     {
       "title": "Giide.fm Website",
-      "p1": "Created Homepage website from scratch using React.js & AWS.",
+      "p1": "Created Homepage website from scratch using React.js.",
       "address": "https://www.giide.fm/",
       "points": [
         { "copy": "Page Routing using React Router", "key": 0 },
@@ -64,8 +64,10 @@
       "p1": "Location-based, restaurant recommendation application.",
       "address": "https://neighborly-eats.herokuapp.com/",
       "points": [
+        { "copy": "Created using React.js and Node.js/Express", "key": 12 },
         { "copy": "Data integration with Yelp Fusion API", "key": 12 },
-        { "copy": "lorem12", "key": 13 }
+        { "copy": "Built with strict three day timeline", "key": 12 },
+        { "copy": "Deployed with Heroku CLI", "key": 13 }
       ]
     }
   ]
