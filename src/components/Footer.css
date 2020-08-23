@@ -1,5 +1,18 @@
-.foot {
-  background: var(--footer2);
+footer {
+  position: absolute;
+  height: 10vh;
+  background: var(--secondary);
   width: 100%;
   margin: 0 auto;
+  left: 0;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 10px;
+}
+
+.foot-info {
+  font-family: "Poppins Light";
+  grid-column: 2/12;
+  margin: 10px auto;
+  text-align: center;
 }
