@@ -3,9 +3,9 @@ import "./Experience.css";
 import data from "../json_experience.json";
 import arrow from "../assets/images/arrow.png";
 import unl from "../assets/images/unl_eng.jpg";
-import carbon from "../assets/images/carbon.jpg";
 import plc from "../assets/images/plc.jpg";
 import galv from "../assets/images/galvanize.png";
+import giide from "../assets/images/giide.png";
 
 import resume from "../assets/jim_walter_resume.pdf";
 import download_icon from "../assets/icons/download.png";
@@ -23,11 +23,11 @@ function Experience() {
         <div className="experience-img">
           <img src={unl} alt="University of Nebraska Engineering Logo" />
           <img className="arrow" src={arrow} alt="downward pointing arrow" />
-          <img src={carbon} alt="woven carbon fiber pattern" />
-          <img className="arrow" src={arrow} alt="downward pointing arrow" />
           <img src={plc} alt="small PLC module" />
           <img className="arrow" src={arrow} alt="downward pointing arrow" />
           <img src={galv} alt="Galvanize orange logo" />
+          <img className="arrow" src={arrow} alt="downward pointing arrow" />
+          <img src={giide} alt="Giide dots logo" />
         </div>
         <a href={resume} className="download" download="jim_walter_resume">
           <p className="subexp">Click to download my resume</p>
