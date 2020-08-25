@@ -41,18 +41,51 @@
 .download {
   margin: 0px auto;
   grid-column: 2/12;
+  border: 1px solid var(--shadow);
+  border-radius: 20px;
 }
 
 .subexp {
   color: var(--secondary);
   width: 50%;
-  margin: auto;
+  margin: 20px auto;
   margin-bottom: 20px;
 }
 
 .download img {
   height: 60px;
   width: 60px;
+  margin: 20px auto;
+}
+
+.tools {
+  margin: 50px auto;
+  text-decoration: underline;
+}
+
+.exp-grid {
+  display: grid;
+  grid-template-columns: repeat(15, 1fr);
+  gap: 10px;
+  margin: 10px;
+}
+
+.exp-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  grid-column: span 5;
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+.exp-item:last-of-type {
+  grid-column: 5/12;
+}
+
+.exp-item img {
+  width: 50px;
 }
 
 @media only screen and (min-width: 650px) {
@@ -61,5 +94,21 @@
     text-indent: 50px;
   }
 }
-@media only screen and (min-width: 750) {
+@media only screen and (min-width: 900px) {
+  .exp-item {
+    height: 120px;
+  }
+
+  .exp-item,
+  .exp-item:last-of-type {
+    grid-column: span 3;
+  }
+
+  .exp-item:nth-of-type(n + 11) {
+    grid-column: 4 / span 3;
+  }
+
+  .exp-item:nth-of-type(n + 12) {
+    grid-column: span 3;
+  }
 }
