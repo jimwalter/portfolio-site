@@ -1,12 +1,13 @@
 import React from "react";
 import "./Header.css";
-import grass from "../assets/videos/trees.mp4";
+import trees from "../assets/videos/trees.mp4";
+import poster from "../assets/videos/poster.png";
 
 function Header() {
   return (
     <header id="home" className="header">
       <div className="fullscreen-video-wrap">
-        <video src={grass} loop autoPlay muted preload="true"></video>
+        <video src={trees} poster={poster} loop autoPlay muted preload="true"></video>
       </div>
       <div className="header-overlay"></div>
       <div className="header-content">
