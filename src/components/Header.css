@@ -77,5 +77,16 @@ header {
   }
 }
 
-@media only screen and (min-width: 950px) {
+@media only screen and (max-width: 757px) {
+  video {
+    display: none;
+  }
+
+  .fullscreen-video-wrap {
+    background: url("../assets/videos/poster.png");
+    background-position: center;
+    background-size: cover;
+    bottom: 50%;
+    left: 0%;
+  }
 }
