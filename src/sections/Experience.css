@@ -43,6 +43,11 @@
   grid-column: 2/12;
   border: 1px solid var(--shadow);
   border-radius: 20px;
+  transition: transform 0.4s;
+}
+
+.download:hover {
+  transform: scale(0.9);
 }
 
 .subexp {
