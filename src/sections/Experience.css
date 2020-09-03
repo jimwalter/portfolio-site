@@ -80,6 +80,8 @@
   margin-bottom: 20px;
 }
 
+.exp-item:hover {
+}
 .exp-item:last-of-type {
   grid-column: 5/12;
 }

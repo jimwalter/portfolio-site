@@ -52,55 +52,55 @@ function Experience() {
       <h2 className="tools">I have experience using...</h2>
       <div className="exp-grid">
         <div className="exp-item">
-          <img src={js} alt="" />
+          <img src={js} alt="JavaScript logo" />
           <p>JavaScript</p>
         </div>
         <div className="exp-item">
-          <img src={reactjs} alt="" />
+          <img src={reactjs} alt="React.js logo" />
           <p>React.js</p>
         </div>
         <div className="exp-item">
-          <img src={aws} alt="" />
+          <img src={aws} alt="Amazon Web Services logo" />
           <p>AWS</p>
         </div>
         <div className="exp-item">
-          <img src={git} alt="" />
+          <img src={git} alt="Git logo" />
           <p>Git</p>
         </div>
         <div className="exp-item">
-          <img src={nodejs} alt="" />
+          <img src={nodejs} alt="Node.js logo" />
           <p>Node.js</p>
         </div>
         <div className="exp-item">
-          <img src={reactrouter} alt="yikes" />
+          <img src={reactrouter} alt="React Router logo" />
           <p>React Router</p>
         </div>
         <div className="exp-item">
-          <img src={mySQL} alt="" />
+          <img src={mySQL} alt="MySQL logo" />
           <p>MySQL</p>
         </div>
         <div className="exp-item">
-          <img src={postgreSQL} alt="" />
+          <img src={postgreSQL} alt="PostgreSQL logo" />
           <p>PostgreSQL</p>
         </div>
         <div className="exp-item">
-          <img src={mongodb} alt="" />
+          <img src={mongodb} alt="MongoDB logo" />
           <p>MongoDB</p>
         </div>
         <div className="exp-item">
-          <img src={redis} alt="" />
+          <img src={redis} alt="Redis logo" />
           <p>Redis</p>
         </div>
         <div className="exp-item">
-          <img src={enzyme} alt="" />
+          <img src={enzyme} alt="Enzyme logo" />
           <p>Enzyme</p>
         </div>
         <div className="exp-item">
-          <img src={jest} alt="" />
+          <img src={jest} alt="Jest logo" />
           <p>Jest</p>
         </div>
         <div className="exp-item">
-          <img src={htmlcss} alt="" />
+          <img src={htmlcss} alt="HTML and CSS logos" />
           <p>HTML &amp; CSS</p>
         </div>
       </div>

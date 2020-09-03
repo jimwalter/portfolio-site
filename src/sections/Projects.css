@@ -8,7 +8,7 @@
 
 .left,
 .right {
-  margin: 2rem auto;
+  margin: 5vh auto;
 }
 
 .features p {
@@ -50,6 +50,13 @@
   margin-top: 40px;
   border-radius: 16px;
   border: 1px solid var(--shadow);
+  transition: transform 0.4s;
+  /* transition-timing-function: ease; */
+}
+
+.project-img:hover {
+  transform: scale(0.95);
+  opacity: 0.8;
 }
 
 @media only screen and (min-width: 500px) {

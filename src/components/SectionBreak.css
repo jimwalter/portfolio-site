@@ -1,4 +1,8 @@
 .sectionBreak {
-  height: 10px;
+  height: 1vh;
   width: 100%;
+  margin: 20px auto;
+}
+.sectionBreak:first-of-type {
+  margin: 20px auto;
 }

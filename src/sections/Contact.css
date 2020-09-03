@@ -26,6 +26,15 @@
   height: 50px;
 }
 
+.contact-link {
+  transition: transform 0.4s;
+}
+
+.contact-link:hover {
+  transform: scale(0.95);
+  opacity: 0.8;
+}
+
 .contact-link p {
   font-family: "Poppins Light";
   text-align: center;
