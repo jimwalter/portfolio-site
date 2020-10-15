@@ -47,7 +47,7 @@ function Experience() {
         </div>
       </div>
       <div className="resumes">
-        <h2 className="headline">Resume Downloads</h2>
+        <h2 className="tools">Resume Downloads</h2>
         <div className="downloads">
           <a href={resume} className="download" download="jim_walter_resume_engineering">
             <p className="subexp">Engineering Resume</p>
