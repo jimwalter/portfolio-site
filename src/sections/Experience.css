@@ -38,31 +38,6 @@
   margin: 20px auto;
 }
 
-.download {
-  margin: 0px auto;
-  grid-column: 2/12;
-  border: 1px solid var(--shadow);
-  border-radius: 20px;
-  transition: transform 0.4s;
-}
-
-.download:hover {
-  transform: scale(0.9);
-}
-
-.subexp {
-  color: var(--secondary);
-  width: 50%;
-  margin: 20px auto;
-  margin-bottom: 20px;
-}
-
-.download img {
-  height: 60px;
-  width: 60px;
-  margin: 20px auto;
-}
-
 .tools {
   margin: 50px auto;
   text-decoration: underline;
@@ -91,6 +66,46 @@
 
 .exp-item img {
   width: 50px;
+}
+
+.resumes .headline {
+  display: block;
+  margin: 20px auto;
+}
+
+.downloads {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 10px auto;
+  justify-content: center;
+}
+
+.download {
+  margin: 10px;
+  grid-column: 2/12;
+  border: 1px solid var(--shadow);
+  border-radius: 20px;
+  transition: transform 0.4s;
+  width: 40%;
+  min-width: 250px;
+}
+
+.download:hover {
+  transform: scale(0.9);
+}
+
+.subexp {
+  color: var(--secondary);
+  width: 50%;
+  margin: 20px auto;
+  margin-bottom: 20px;
+}
+
+.download img {
+  height: 60px;
+  width: 60px;
+  margin: 20px auto;
 }
 
 @media only screen and (min-width: 650px) {

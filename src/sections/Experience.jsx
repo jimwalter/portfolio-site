@@ -2,7 +2,8 @@ import React from "react";
 import "./Experience.css";
 
 import data from "../json_experience.json";
-import resume from "../assets/jim_walter_resume.pdf";
+import resume from "../assets/jim_walter_resume_tech.pdf";
+import resume2 from "../assets/jim_walter_resume_sales.pdf";
 
 import arrow from "../assets/images/arrow.png";
 import unl from "../assets/images/unl_eng.jpg";
@@ -44,10 +45,19 @@ function Experience() {
           <img className="arrow" src={arrow} alt="downward pointing arrow" />
           <img src={giide} alt="Giide dots logo" />
         </div>
-        <a href={resume} className="download" download="jim_walter_resume">
-          <p className="subexp">Click to download my resume</p>
-          <img src={download_icon} alt="download from cloud icon" />
-        </a>
+      </div>
+      <div className="resumes">
+        <h2 className="headline">Resume Downloads</h2>
+        <div className="downloads">
+          <a href={resume} className="download" download="jim_walter_resume_engineering">
+            <p className="subexp">Engineering Resume</p>
+            <img src={download_icon} alt="download from cloud icon" />
+          </a>
+          <a href={resume2} className="download" download="jim_walter_resume_sales">
+            <p className="subexp">Sales Resume</p>
+            <img src={download_icon} alt="download from cloud icon" />
+          </a>
+        </div>
       </div>
       <h2 className="tools">I have experience using...</h2>
       <div className="exp-grid">
