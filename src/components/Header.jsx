@@ -7,12 +7,12 @@ function Header() {
   return (
     <header id="home" className="header">
       <div className="fullscreen-video-wrap">
-        <video src={trees} poster={poster} loop autoPlay muted preload="true"></video>
+        <video src={trees} poster={poster} loop autoPlay muted preload="true" />
       </div>
       <div className="header-overlay"></div>
       <div className="header-content">
         <h1 className="logo">JIM WALTER</h1>
-        <p className="sub">{"Software & Sales Engineer"}</p>
+        <p className="sub">{"Software | Sales | Engineering"}</p>
       </div>
     </header>
   );
